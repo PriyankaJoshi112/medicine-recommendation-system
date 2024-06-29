@@ -34,9 +34,27 @@
       }
 
       .inside-container{
-        background-color: red;
+        /* background-color: red;
         padding: 2rem;
         border-radius: 0.4rem;
+        transition: all 0.8s ease-in-out; */
+        box-shadow: 1px 4px 3px 2px rgba(239, 102, 5, 0.6);
+        color: #fff;
+        opacity: 0.8;
+        padding: 2rem;
+        border-radius: 10px; /* Rounded corners for cards */
+        height: 312.472px; /* Fixed height for all cards */
+        margin-right: 15px; /* Space between cards */
+        outline: 1px solid rgba(239, 102, 5, 0.6);
+        transition: all 0.6s ease-in-out;
+        filter: blur(2px);
+      }
+      .inside-container:hover{
+        background: linear-gradient(to top, rgba(239, 102, 5, 0.6) 0%, rgba(39, 32, 32, 0.148) 100%);
+        box-shadow: none;
+        border-radius: 10px;
+        scale: 0.9;
+        filter: blur(0px);
       }
     </style>
   </head>
